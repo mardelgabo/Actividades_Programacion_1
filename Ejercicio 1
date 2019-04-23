@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+int main () {
+	int A=10, B=15, C=20;
+	int suma=0;
+	float prom=0;
+	
+	suma= A+B+C;
+	prom= suma/3;
+	
+	printf("\n El promedio es: %f",prom);
+	getche ();
+}
